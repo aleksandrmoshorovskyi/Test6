@@ -31,7 +31,7 @@ print("Розділ 1.1 Константи\n")
  */
 
 let myPetName: String = "Magic"
-let myPetWeight: Double = 4
+let myPetWeight: Double = 4.1
 let myPetAge: Int = 3
 let myPetIsHungry: Bool = false
 
@@ -85,21 +85,32 @@ print("\nРозділ 1.2 Змінні\n")
 
  */
 
+var someUserFirstName: String = "Taras"
+var someUserLastName: String = "Shevchenko"
+var someUserAge: Int = 41
+var someUserHeight: Double = 165
+var someUserWeight: Double = 80.5
+var someUserIsSingl: Bool = true
+
 print("Інформація за 2018 р.:")
-print("Ім'я: ")
-print("Прізвище: ")
-print("Вік: ")
-print("зріст: см")
-print("Вага: кг")
-print("У шлюбі: ")
+print("Ім'я: \(someUserFirstName)")
+print("Прізвище: \(someUserLastName)")
+print("Вік: \(someUserAge)")
+print("зріст: \(someUserHeight) см")
+print("Вага: \(someUserWeight) кг")
+print("У шлюбі: \(someUserIsSingl ? "Ні" : "Так")")
+
+someUserAge = 47
+someUserWeight = 83.5
+someUserIsSingl = false
 
 print("\nІнформація за поточний рік:")
-print("Ім'я: ")
-print("Прізвище: ")
-print("Вік: ")
-print("зріст: см")
-print("Вага: кг")
-print("У шлюбі: ")
+print("Ім'я: \(someUserFirstName)")
+print("Прізвище: \(someUserLastName)")
+print("Вік: \(someUserAge)")
+print("зріст: \(someUserHeight) см")
+print("Вага: \(someUserWeight) кг")
+print("У шлюбі: \(someUserIsSingl ? "Ні" : "Так")")
 
 
 print("\nРозділ 1.3 Псевдоніми\n")
